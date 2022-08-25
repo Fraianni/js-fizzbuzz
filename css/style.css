@@ -14,12 +14,14 @@ body {
 #grid {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: auto;
+    height: 800px;
+    width: 800px;
 }
 
 #grid>div {
-    width: 100px;
-    height: 100px;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
     background-color: wheat;
     border: 1px solid black;
     text-align: center;
